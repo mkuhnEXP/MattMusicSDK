@@ -9,10 +9,41 @@ Matt Kuhn
 
 
 
-How to use
-
 API:
 
+func initialize() -> Bool
+
+func addMusicFileInBundleToPlaylist(fileNameIncludingExtension fileUrlStr: String) -> Bool 
+
+func playMusic() -> Bool
+
+func getSamplesSize_akaN() -> Int
+
+func getTheSamples() -> [Float]
+
+func getFrequenciesReal() -> [Float] 
+
+func getFrequenciesImaginary() -> [Float] 
+  
+func getCurrentMusicFilename() -> String
+
+func setDontRestartPlaylistOnceFinished(_ value: Bool) 
+
+func pauseMusic()
+
+func stopMusic()
+ 
+func isPlaying() -> Bool
+
+func isPaused() -> Bool
+
+func isStopped() -> Bool
+
+func jumpToNextSong() 
+
+func getCurrentSampleRate() -> Float
+
+func isSignificantSpectralFluxDetected() -> Bool 
 
 func cleanup()
  
