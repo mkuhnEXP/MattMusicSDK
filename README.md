@@ -59,7 +59,7 @@ In your main update loop:
     .
     
 
-API:
+Full API:
 
 func initialize() -> Bool
 
