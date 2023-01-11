@@ -12,6 +12,17 @@ Usage:
 
 import MattMusicSDK
 
+    initialize()
+    
+    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music1.mp3")
+    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music2.mp3")
+    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music3.mp3")
+    .
+    .
+    .
+    playMusic()
+    
+
 
 API:
 
