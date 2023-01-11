@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hnpMaMM8eby7roWMaSMYxLsdyro=
+		lKOG55P8S7t3uG7eETmS62kfXnk=
 		</data>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Za74rcvz04ij5CtwoOAi7ngXfzg=
+		+dLCu8t3hHnVlzsC8jEA3NggPy0=
 		</data>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Za74rcvz04ij5CtwoOAi7ngXfzg=
+		+dLCu8t3hHnVlzsC8jEA3NggPy0=
 		</data>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vQ+3TDO9D9ZJwfKgPgwCu4Py9d0=
+		p48knITXdcjGJz8Bg4vEjSpdh6o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pmewR1fBnp9X8fdvlk79EasRA1wyK4fUnSy42SVKggc=
+			IZ5nkxZNWGXYzTucSrzJCWnpL82mUGzWlVUO1+WOU2w=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t8pc6+DkEs2kNg4uOkPpQlUx7FO6hB8FFNyMccxaBj8=
+			+jmKfLOY1M9TU6Lf5qnAcclC+eQ5Uu3YwFJFLoeUDIo=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t8pc6+DkEs2kNg4uOkPpQlUx7FO6hB8FFNyMccxaBj8=
+			+jmKfLOY1M9TU6Lf5qnAcclC+eQ5Uu3YwFJFLoeUDIo=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WpeoxJCiqrECQSsGpIVfM9wIKartLp4z9EtiTMhqDx8=
+			bSusJs4pKdrZXNElmIlbgQxVES3qPXjHvLZzsRZhi/Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

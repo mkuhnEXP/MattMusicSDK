@@ -36,14 +36,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5FnGeZ49mRQSzKYoWp2oVGquLYbM4SD+dXOU0EI4WSw=
+			F/1GPdogHztXztiQQlqfa1ryRZm5pNLMgKE/oyX7coU=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vZiAUsKG8BOoJlnqCAxrtm6fTL9+zq/CjX3b4+MJxEU=
+			2BZL6dF6YRSa3Y7iQgW/1p45qdFYacpYWcgS2VJ5rtM=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-macos.swiftdoc</key>
@@ -57,28 +57,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vZiAUsKG8BOoJlnqCAxrtm6fTL9+zq/CjX3b4+MJxEU=
+			2BZL6dF6YRSa3Y7iQgW/1p45qdFYacpYWcgS2VJ5rtM=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hb14X6NPIZklLK8c9cejTFd8nky+PA31Odd3UWAKQvE=
+			8m29Zv8KNKWgohT7NnfUX7RaFqMWBe8YAMBrMkuaK9Y=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5FnGeZ49mRQSzKYoWp2oVGquLYbM4SD+dXOU0EI4WSw=
+			F/1GPdogHztXztiQQlqfa1ryRZm5pNLMgKE/oyX7coU=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1zd3GOGF7BKUTeW2J3XCQWedO60/RyQ+sX6T+Eo37l8=
+			uwQgjR2oshNt7cECynVutYbrjvQwSSz776W0HdblVT8=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/x86_64-apple-macos.swiftdoc</key>
@@ -92,14 +92,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1zd3GOGF7BKUTeW2J3XCQWedO60/RyQ+sX6T+Eo37l8=
+			uwQgjR2oshNt7cECynVutYbrjvQwSSz776W0HdblVT8=
 			</data>
 		</dict>
 		<key>Modules/MattMusicSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UekEvS6d+YlHlAZ9SX3kXLcePOBCHUZkIIYxgrbHNts=
+			NvlAgnWO6q7LsTLms/Fme6nHc8aaUexjaYTsroXPd0w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
