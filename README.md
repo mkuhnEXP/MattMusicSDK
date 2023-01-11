@@ -10,16 +10,18 @@ Matt Kuhn
 
 Usage:
 
-import MattMusicSDK
+    import MattMusicSDK
+    
+    .
+    .
+    .
 
     initialize()
     
     addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music1.mp3")
     addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music2.mp3")
     addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music3.mp3")
-    .
-    .
-    .
+    // ...
     playMusic()
     
 
@@ -30,22 +32,20 @@ In your main update loop:
     let theFreqsImaginary: [Float] = getFrequenciesImaginary()
     
     // draw the waveform from 'theSamples'
-    .
-    .
-    .
+   
     
-    // draw the spectrum using 'theFreqsReal' annd 'theFreqsImaginary'
-    .
-    .
-    .
-    
+    // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary'
+
   
-    bool isSigSpectralFluxDetected = isSignificantSpectralFluxDetected
+    .
+    .
+    .
     
-     // sync app or games events to detected music dynamics
-     .
-     .
-     .
+    
+    let isSigSpectralFluxDetected = isSignificantSpectralFluxDetected()
+    
+    // sync app or games events to detected music dynamics
+  
    
 
 API:
