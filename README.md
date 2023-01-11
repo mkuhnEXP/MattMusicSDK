@@ -23,6 +23,30 @@ import MattMusicSDK
     playMusic()
     
 
+In your main update loop:
+
+    let theSamples: [Float] = getTheSamples() 
+    let theFreqsReal: [Float] = getFrequenciesReal()
+    let theFreqsImaginary: [Float] = getFrequenciesImaginary()
+    
+    // draw the waveform from 'theSamples'
+    .
+    .
+    .
+    
+    // draw the spectrum using 'theFreqsReal' annd 'theFreqsImaginary'
+    .
+    .
+    .
+    
+  
+    bool isSigSpectralFluxDetected = isSignificantSpectralFluxDetected
+    
+     // sync app or games events to detected music dynamics
+     .
+     .
+     .
+   
 
 API:
 
