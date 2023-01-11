@@ -54,9 +54,7 @@ func cleanup()
 
 How to calculate magnitude for each frequency index:
 
-let realSquared: Float = abs(real) * abs(real)
-
-let imaginarySquared: Float = abs(img) * abs(img)
-
-let magnitude = sqrt(realSquared + imaginarySquared)
+    let realSquared: Float = abs(real) * abs(real)
+    let imaginarySquared: Float = abs(img) * abs(img)
+    let magnitude = sqrt(realSquared + imaginarySquared)
 
