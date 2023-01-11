@@ -52,7 +52,7 @@ In your main update loop:
     
     let isSigSpectralFluxDetected = isSignificantSpectralFluxDetected()
     
-    // sync app or games events to music dynamics
+    // sync app or game events to music dynamics
     
     .
     .
