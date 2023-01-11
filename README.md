@@ -41,7 +41,7 @@ func isStopped() -> Bool
 
 func jumpToNextSong() 
 
-func getCurrentSampleRate() -> Float
+func getCurrentMusicSampleRate() -> Float
 
 func isSignificantSpectralFluxDetected() -> Bool 
 
