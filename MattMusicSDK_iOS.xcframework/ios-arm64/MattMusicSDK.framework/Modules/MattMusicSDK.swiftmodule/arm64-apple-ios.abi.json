@@ -1,0 +1,1439 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK"
+      },
+      {
+        "kind": "Function",
+        "name": "initialize",
+        "printedName": "initialize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK10initializeSbyF",
+        "mangledName": "$s12MattMusicSDK10initializeSbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getTheSamples",
+        "printedName": "getTheSamples()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK13getTheSamplesSaySfGyF",
+        "mangledName": "$s12MattMusicSDK13getTheSamplesSaySfGyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getTheAfterHammSamples",
+        "printedName": "getTheAfterHammSamples()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK22getTheAfterHammSamplesSaySfGyF",
+        "mangledName": "$s12MattMusicSDK22getTheAfterHammSamplesSaySfGyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getFrequenciesReal",
+        "printedName": "getFrequenciesReal()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK18getFrequenciesRealSaySfGyF",
+        "mangledName": "$s12MattMusicSDK18getFrequenciesRealSaySfGyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getFrequenciesImaginary",
+        "printedName": "getFrequenciesImaginary()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK23getFrequenciesImaginarySaySfGyF",
+        "mangledName": "$s12MattMusicSDK23getFrequenciesImaginarySaySfGyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "addMusicFileInBundleToPlaylist",
+        "printedName": "addMusicFileInBundleToPlaylist(fileNameIncludingExtension:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK03addB22FileInBundleToPlaylist26fileNameIncludingExtensionSbSS_tF",
+        "mangledName": "$s12MattMusicSDK03addB22FileInBundleToPlaylist26fileNameIncludingExtensionSbSS_tF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentMusicFilename",
+        "printedName": "getCurrentMusicFilename()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK010getCurrentB8FilenameSSyF",
+        "mangledName": "$s12MattMusicSDK010getCurrentB8FilenameSSyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "setDontRestartPlaylistOnceFinished",
+        "printedName": "setDontRestartPlaylistOnceFinished(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK34setDontRestartPlaylistOnceFinishedyySbF",
+        "mangledName": "$s12MattMusicSDK34setDontRestartPlaylistOnceFinishedyySbF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "playMusic",
+        "printedName": "playMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK04playB0SbyF",
+        "mangledName": "$s12MattMusicSDK04playB0SbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "pauseMusic",
+        "printedName": "pauseMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK05pauseB0yyF",
+        "mangledName": "$s12MattMusicSDK05pauseB0yyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopMusic",
+        "printedName": "stopMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK04stopB0yyF",
+        "mangledName": "$s12MattMusicSDK04stopB0yyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isPlaying",
+        "printedName": "isPlaying()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK9isPlayingSbyF",
+        "mangledName": "$s12MattMusicSDK9isPlayingSbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isPaused",
+        "printedName": "isPaused()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK8isPausedSbyF",
+        "mangledName": "$s12MattMusicSDK8isPausedSbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isStopped",
+        "printedName": "isStopped()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK9isStoppedSbyF",
+        "mangledName": "$s12MattMusicSDK9isStoppedSbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "jumpToNextSong",
+        "printedName": "jumpToNextSong()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK14jumpToNextSongyyF",
+        "mangledName": "$s12MattMusicSDK14jumpToNextSongyyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "eSpectrumBarCountId",
+        "printedName": "eSpectrumBarCountId",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO4noneyA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO4noneyA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k1024",
+            "printedName": "k1024",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO5k1024yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO5k1024yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k512",
+            "printedName": "k512",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO4k512yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO4k512yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k256",
+            "printedName": "k256",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO4k256yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO4k256yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k128",
+            "printedName": "k128",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO4k128yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO4k128yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k64",
+            "printedName": "k64",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO3k64yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO3k64yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k32",
+            "printedName": "k32",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO3k32yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO3k32yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k16",
+            "printedName": "k16",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO3k16yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO3k16yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "k8",
+            "printedName": "k8",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MattMusicSDK.eSpectrumBarCountId.Type) -> MattMusicSDK.eSpectrumBarCountId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "eSpectrumBarCountId",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                    "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MattMusicSDK.eSpectrumBarCountId.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "eSpectrumBarCountId",
+                        "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO2k8yA2CmF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO2k8yA2CmF",
+            "moduleName": "MattMusicSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "eSpectrumBarCountId",
+                "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "eSpectrumBarCountId",
+                "printedName": "MattMusicSDK.eSpectrumBarCountId",
+                "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO2eeoiySbAC_ACtFZ",
+            "moduleName": "MattMusicSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO9hashValueSivp",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO9hashValueSivp",
+            "moduleName": "MattMusicSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO9hashValueSivg",
+                "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO9hashValueSivg",
+                "moduleName": "MattMusicSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO4hash4intoys6HasherVz_tF",
+            "moduleName": "MattMusicSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO",
+        "mangledName": "$s12MattMusicSDK19eSpectrumBarCountIdO",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "setSpectrumBarCount",
+        "printedName": "setSpectrumBarCount(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "eSpectrumBarCountId",
+            "printedName": "MattMusicSDK.eSpectrumBarCountId",
+            "usr": "s:12MattMusicSDK19eSpectrumBarCountIdO"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK19setSpectrumBarCountyyAA01eefG2IdOF",
+        "mangledName": "$s12MattMusicSDK19setSpectrumBarCountyyAA01eefG2IdOF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getSpectrumBarCountAsNumber",
+        "printedName": "getSpectrumBarCountAsNumber()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK27getSpectrumBarCountAsNumberSiyF",
+        "mangledName": "$s12MattMusicSDK27getSpectrumBarCountAsNumberSiyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getSpectrumBinsForCurrentBarCountId",
+        "printedName": "getSpectrumBinsForCurrentBarCountId()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "[Swift.Float]?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Float]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK35getSpectrumBinsForCurrentBarCountIdSaySfGSgyF",
+        "mangledName": "$s12MattMusicSDK35getSpectrumBinsForCurrentBarCountIdSaySfGSgyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getSpectrumBinIndexFromFrequencyForCurrentBarCount",
+        "printedName": "getSpectrumBinIndexFromFrequencyForCurrentBarCount(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK50getSpectrumBinIndexFromFrequencyForCurrentBarCountySiSfF",
+        "mangledName": "$s12MattMusicSDK50getSpectrumBinIndexFromFrequencyForCurrentBarCountySiSfF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getMagnitudes",
+        "printedName": "getMagnitudes()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK13getMagnitudesSaySfGyF",
+        "mangledName": "$s12MattMusicSDK13getMagnitudesSaySfGyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getSamplesSize_akaN",
+        "printedName": "getSamplesSize_akaN()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK19getSamplesSize_akaNSiyF",
+        "mangledName": "$s12MattMusicSDK19getSamplesSize_akaNSiyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentSampleRate",
+        "printedName": "getCurrentSampleRate()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK20getCurrentSampleRateSfyF",
+        "mangledName": "$s12MattMusicSDK20getCurrentSampleRateSfyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isBeatDetected",
+        "printedName": "isBeatDetected()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK14isBeatDetectedSbyF",
+        "mangledName": "$s12MattMusicSDK14isBeatDetectedSbyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "cleanup",
+        "printedName": "cleanup()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:12MattMusicSDK7cleanupyyF",
+        "mangledName": "$s12MattMusicSDK7cleanupyyF",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaToolbox",
+        "printedName": "MediaToolbox",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 356,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 518,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 583,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "FloatLiteral",
+      "offset": 636,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 723,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1042,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1111,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1121,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1167,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1177,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1488,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SDKData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1640,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 520,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 590,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 600,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 680,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 690,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 878,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 888,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 938,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 968,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1000,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1183,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1217,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1256,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1325,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1369,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1416,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1463,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1495,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 2530,
+      "length": 89,
+      "value": "\"SdkData.sharedInstance.currentSampleRate =  \""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 2618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 3709,
+      "length": 20,
+      "value": "\"unprepare \""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Desktop\/MattMusicSDK_iOS\/MattMusicSDK\/SoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 3726,
+      "length": 1,
+      "value": "\"\n\""
+    }
+  ]
+}

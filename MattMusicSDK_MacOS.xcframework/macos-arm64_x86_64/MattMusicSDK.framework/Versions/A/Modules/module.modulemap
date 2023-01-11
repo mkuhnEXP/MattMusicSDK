@@ -1,0 +1,11 @@
+framework module MattMusicSDK {
+  umbrella header "MattMusicSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MattMusicSDK.Swift {
+  header "MattMusicSDK-Swift.h"
+  requires objc
+}

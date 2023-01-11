@@ -1,0 +1,53 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-macos12.3 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MattMusicSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+import Foundation
+@_exported import MattMusicSDK
+import MediaToolbox
+import Swift
+import _Concurrency
+public func initialize() -> Swift.Bool
+public func getTheSamples() -> [Swift.Float]
+public func getTheAfterHammSamples() -> [Swift.Float]
+public func getFrequenciesReal() -> [Swift.Float]
+public func getFrequenciesImaginary() -> [Swift.Float]
+public func addMusicFileInBundleToPlaylist(fileNameIncludingExtension fileUrlStr: Swift.String) -> Swift.Bool
+public func getCurrentMusicFilename() -> Swift.String
+public func setDontRestartPlaylistOnceFinished(_ value: Swift.Bool)
+public func playMusic() -> Swift.Bool
+public func pauseMusic()
+public func stopMusic()
+public func isPlaying() -> Swift.Bool
+public func isPaused() -> Swift.Bool
+public func isStopped() -> Swift.Bool
+public func jumpToNextSong()
+public enum eSpectrumBarCountId {
+  case none
+  case k1024
+  case k512
+  case k256
+  case k128
+  case k64
+  case k32
+  case k16
+  case k8
+  public static func == (a: MattMusicSDK.eSpectrumBarCountId, b: MattMusicSDK.eSpectrumBarCountId) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func setSpectrumBarCount(_ barCountId: MattMusicSDK.eSpectrumBarCountId)
+public func getSpectrumBarCountAsNumber() -> Swift.Int
+public func getSpectrumBinsForCurrentBarCountId() -> [Swift.Float]?
+public func getSpectrumBinIndexFromFrequencyForCurrentBarCount(_ freq: Swift.Float) -> Swift.Int
+public func getMagnitudes() -> [Swift.Float]
+public func getSamplesSize_akaN() -> Swift.Int
+public func getCurrentSampleRate() -> Swift.Float
+public func isBeatDetected() -> Swift.Bool
+public func cleanup()
+extension MattMusicSDK.eSpectrumBarCountId : Swift.Equatable {}
+extension MattMusicSDK.eSpectrumBarCountId : Swift.Hashable {}
