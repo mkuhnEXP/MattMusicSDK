@@ -38,8 +38,9 @@ In your main update loop:
     let theFreqsReal: [Float] = getFrequenciesReal()
     let theFreqsImaginary: [Float] = getFrequenciesImaginary()
     
-    // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary
-    //     fyi how to calculate magnitude for each frequency index:
+    // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary':
+    //
+    //   fyi how to calculate magnitude for each frequency index:
     /
     //         let realSquared: Float = abs(theFreqsReal[i]) * abs(theFreqsReal[i])
     //         let imaginarySquared: Float = abs(theFreqsImaginary[i]) * abs(theFreqsImaginary[i])
