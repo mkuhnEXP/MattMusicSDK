@@ -23,6 +23,8 @@ func playMusic() -> Bool
 
 func getSamplesSize_akaN() -> Int
 
+func getCurrentMusicSampleRate() -> Float
+
 func getTheSamples() -> [Float]
 
 func getFrequenciesReal() -> [Float] 
@@ -44,8 +46,6 @@ func isPaused() -> Bool
 func isStopped() -> Bool
 
 func jumpToNextSong() 
-
-func getCurrentMusicSampleRate() -> Float
 
 func isSignificantSpectralFluxDetected() -> Bool 
 
