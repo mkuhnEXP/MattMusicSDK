@@ -28,23 +28,34 @@ Usage:
 In your main update loop:
 
     let theSamples: [Float] = getTheSamples() 
+    
+    // draw the waveform from 'theSamples'
+    
+    .
+    .
+    .
+   
     let theFreqsReal: [Float] = getFrequenciesReal()
     let theFreqsImaginary: [Float] = getFrequenciesImaginary()
     
-    // draw the waveform from 'theSamples'
-   
-    
-    // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary'
+    // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary
+    //     fyi how to calculate magnitude for each frequency index:
+    /
+    //         let realSquared: Float = abs(theFreqsReal[i]) * abs(theFreqsReal[i])
+    //         let imaginarySquared: Float = abs(theFreqsImaginary[i]) * abs(theFreqsImaginary[i])
+    //         let magnitude = sqrt(realSquared + imaginarySquared)
 
-  
     .
     .
     .
-    
     
     let isSigSpectralFluxDetected = isSignificantSpectralFluxDetected()
     
-    // sync app or games events to detected music dynamics
+    // sync app or games events to music dynamics
+    
+    .
+    .
+    .
   
    
 
@@ -86,10 +97,3 @@ func getCurrentMusicFilename() -> String
 
 func cleanup()
  
-
-How to calculate magnitude for each frequency index:
-
-    let realSquared: Float = abs(real) * abs(real)
-    let imaginarySquared: Float = abs(img) * abs(img)
-    let magnitude = sqrt(realSquared + imaginarySquared)
-
