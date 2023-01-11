@@ -21,17 +21,15 @@ func addMusicFileInBundleToPlaylist(fileNameIncludingExtension fileUrlStr: Strin
 
 func playMusic() -> Bool
 
-func getSamplesSize_akaN() -> Int
-
-func getCurrentMusicSampleRate() -> Float
-
 func getTheSamples() -> [Float]
 
 func getFrequenciesReal() -> [Float] 
 
 func getFrequenciesImaginary() -> [Float] 
 
-func setDontRestartPlaylistOnceFinished(_ value: Bool) 
+func getSamplesSize_akaN() -> Int
+
+func getCurrentMusicSampleRate() -> Float
 
 func pauseMusic()
 
@@ -44,6 +42,8 @@ func isPaused() -> Bool
 func isStopped() -> Bool
 
 func jumpToNextSong() 
+
+func setDontRestartPlaylistOnceFinished(_ value: Bool) 
 
 func isSignificantSpectralFluxDetected() -> Bool 
 
