@@ -30,8 +30,6 @@ func getTheSamples() -> [Float]
 func getFrequenciesReal() -> [Float] 
 
 func getFrequenciesImaginary() -> [Float] 
-  
-func getCurrentMusicFilename() -> String
 
 func setDontRestartPlaylistOnceFinished(_ value: Bool) 
 
@@ -48,6 +46,8 @@ func isStopped() -> Bool
 func jumpToNextSong() 
 
 func isSignificantSpectralFluxDetected() -> Bool 
+
+func getCurrentMusicFilename() -> String
 
 func cleanup()
  
