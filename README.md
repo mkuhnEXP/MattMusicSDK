@@ -11,7 +11,7 @@ Matt Kuhn
 Usage:
 
     import MattMusicSDK
-    
+ 
     .
     .
     .
@@ -41,7 +41,7 @@ In your main update loop:
     // draw the spectrum using from 'theFreqsReal' annd 'theFreqsImaginary':
     //
     //   fyi how to calculate magnitude for each frequency index:
-    /
+    //
     //         let realSquared: Float = abs(theFreqsReal[i]) * abs(theFreqsReal[i])
     //         let imaginarySquared: Float = abs(theFreqsImaginary[i]) * abs(theFreqsImaginary[i])
     //         let magnitude = sqrt(realSquared + imaginarySquared)
@@ -57,8 +57,7 @@ In your main update loop:
     .
     .
     .
-  
-   
+    
 
 API:
 
