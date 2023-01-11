@@ -51,3 +51,11 @@ func getCurrentMusicFilename() -> String
 
 func cleanup()
  
+
+How to calculate magnitude:
+
+  let realxreal: Float = abs(real) * abs(real)
+  let imgximg: Float = abs(img) * abs(img)
+  let magnitude = sqrt(realxreal + imgximg)
+  
+ 
