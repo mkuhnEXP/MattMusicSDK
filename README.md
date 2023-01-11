@@ -5,7 +5,7 @@ Simply add MattMusicSDK xcFramework to your MacOS or iOS project, send it the fi
 
 Matt Kuhn
 
-[If you find MattMusicSDK to your liking...donate here](https://www.paypal.com/donate/?hosted_button_id=H3B7779F7KQMW)
+[If you find MattMusicSDK to your liking... donate here](https://www.paypal.com/donate/?hosted_button_id=H3B7779F7KQMW)
 
 
 
