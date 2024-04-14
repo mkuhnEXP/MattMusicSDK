@@ -91,6 +91,7 @@ func jumpToNextSong()
 func getTheSamples() -> [Float] // N = 2048
 
 func getFrequenciesReal() -> [Float]  // N = 512
+
 func getFrequenciesImaginary() -> [Float]  
 
 func isBeatDetected() -> Bool 
