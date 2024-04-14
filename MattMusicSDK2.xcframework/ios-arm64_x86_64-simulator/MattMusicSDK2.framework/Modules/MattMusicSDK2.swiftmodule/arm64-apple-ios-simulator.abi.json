@@ -1,0 +1,1401 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK2"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaToolbox",
+        "printedName": "MediaToolbox",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK2"
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "MattMusicSDK2"
+      },
+      {
+        "kind": "Function",
+        "name": "initialize",
+        "printedName": "initialize()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK210initializeSbyF",
+        "mangledName": "$s13MattMusicSDK210initializeSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "addSongInBundleToPlaylist",
+        "printedName": "addSongInBundleToPlaylist(filenameWithExtension:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK225addSongInBundleToPlaylist21filenameWithExtensionSbSS_tF",
+        "mangledName": "$s13MattMusicSDK225addSongInBundleToPlaylist21filenameWithExtensionSbSS_tF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "startPlayingPlaylist",
+        "printedName": "startPlayingPlaylist()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK220startPlayingPlaylistSbyF",
+        "mangledName": "$s13MattMusicSDK220startPlayingPlaylistSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "jumpToNextSong",
+        "printedName": "jumpToNextSong()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK214jumpToNextSongyyF",
+        "mangledName": "$s13MattMusicSDK214jumpToNextSongyyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getTheSamples",
+        "printedName": "getTheSamples()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK213getTheSamplesSaySfGyF",
+        "mangledName": "$s13MattMusicSDK213getTheSamplesSaySfGyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getFrequenciesReal",
+        "printedName": "getFrequenciesReal()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK218getFrequenciesRealSaySfGyF",
+        "mangledName": "$s13MattMusicSDK218getFrequenciesRealSaySfGyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getFrequenciesImaginary",
+        "printedName": "getFrequenciesImaginary()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.Float]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "usr": "s:Sa"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK223getFrequenciesImaginarySaySfGyF",
+        "mangledName": "$s13MattMusicSDK223getFrequenciesImaginarySaySfGyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isBeatDetected",
+        "printedName": "isBeatDetected()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK214isBeatDetectedSbyF",
+        "mangledName": "$s13MattMusicSDK214isBeatDetectedSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "pauseMusic",
+        "printedName": "pauseMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK205pauseB0yyF",
+        "mangledName": "$s13MattMusicSDK205pauseB0yyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "resumeMusic",
+        "printedName": "resumeMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK206resumeB0yyF",
+        "mangledName": "$s13MattMusicSDK206resumeB0yyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "stopMusic",
+        "printedName": "stopMusic()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK204stopB0yyF",
+        "mangledName": "$s13MattMusicSDK204stopB0yyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isPlaying",
+        "printedName": "isPlaying()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK29isPlayingSbyF",
+        "mangledName": "$s13MattMusicSDK29isPlayingSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isPaused",
+        "printedName": "isPaused()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK28isPausedSbyF",
+        "mangledName": "$s13MattMusicSDK28isPausedSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "isStopped",
+        "printedName": "isStopped()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK29isStoppedSbyF",
+        "mangledName": "$s13MattMusicSDK29isStoppedSbyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentMusicFilename",
+        "printedName": "getCurrentMusicFilename()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK2010getCurrentB8FilenameSSyF",
+        "mangledName": "$s13MattMusicSDK2010getCurrentB8FilenameSSyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getCurrentMusicSampleRate",
+        "printedName": "getCurrentMusicSampleRate()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK2010getCurrentB10SampleRateSfyF",
+        "mangledName": "$s13MattMusicSDK2010getCurrentB10SampleRateSfyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "unintializeAndCleanup",
+        "printedName": "unintializeAndCleanup()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13MattMusicSDK221unintializeAndCleanupyyF",
+        "mangledName": "$s13MattMusicSDK221unintializeAndCleanupyyF",
+        "moduleName": "MattMusicSDK2",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 339,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 410,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 798,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 899,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 952,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1009,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1019,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1093,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1154,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1330,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1426,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1512,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1522,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1569,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1599,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1631,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1738,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1772,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1811,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1843,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1880,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1924,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 1971,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 2018,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6103,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 6212,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6502,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6673,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6704,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6728,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6848,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6876,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 7054,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7066,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7508,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 7678,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7690,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7731,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7747,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7762,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7767,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7900,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8512,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8522,
+      "length": 4,
+      "value": "2048"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8604,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8833,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8875,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8930,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9505,
+      "length": 3,
+      "value": "350"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9621,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9882,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 9926,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 9970,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 11439,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 11617,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11722,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11823,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11880,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 12062,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12083,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12116,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12150,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12335,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12567,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12702,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12727,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12802,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12992,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13020,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13098,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13133,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13225,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13781,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14174,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 14211,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14252,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14272,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 14309,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14350,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14370,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 14407,
+      "length": 3,
+      "value": "2.2"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14448,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "FloatLiteral",
+      "offset": 14485,
+      "length": 3,
+      "value": "2.4"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14855,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15138,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15228,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 15330,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15434,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 16003,
+      "length": 24,
+      "value": "\"Now playing: \""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 16026,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17128,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17233,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17441,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17684,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18078,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19690,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19726,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19884,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20188,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20331,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20345,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20415,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20451,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21118,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "StringLiteral",
+      "offset": 21255,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21539,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21692,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mattkuhn\/Documents\/GitHub\/MattMusicSDK2\/MattMusicSDK2\/MattSoundRoutines.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22082,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

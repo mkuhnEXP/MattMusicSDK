@@ -1,0 +1,30 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target x86_64-apple-ios17.2-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MattMusicSDK2
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+import Foundation
+@_exported import MattMusicSDK2
+import MediaToolbox
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public func initialize() -> Swift.Bool
+public func addSongInBundleToPlaylist(filenameWithExtension: Swift.String) -> Swift.Bool
+public func startPlayingPlaylist() -> Swift.Bool
+public func jumpToNextSong()
+public func getTheSamples() -> [Swift.Float]
+public func getFrequenciesReal() -> [Swift.Float]
+public func getFrequenciesImaginary() -> [Swift.Float]
+public func isBeatDetected() -> Swift.Bool
+public func pauseMusic()
+public func resumeMusic()
+public func stopMusic()
+public func isPlaying() -> Swift.Bool
+public func isPaused() -> Swift.Bool
+public func isStopped() -> Swift.Bool
+public func getCurrentMusicFilename() -> Swift.String
+public func getCurrentMusicSampleRate() -> Swift.Float
+public func unintializeAndCleanup()

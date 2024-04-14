@@ -1,7 +1,10 @@
 # MattMusicSDK
-MattMusicSDK - MacOS and iOS audio player xcFrameworks that give back real-time data (sound samples for drawing the waveform, FFT real and imaginary results for drawing a spectrum analyzer, and significant spectral flux detection for syncing events to the music dynamics) for M4A, MP3, etc
 
-Simply add MattMusicSDK xcFramework to your MacOS or iOS project, send it the filenames (the SDK keeps a playlist internally) of music in your app bundle, call play, and it gives back real-time data: sound samples for drawing the waveform, FFT real and imaginary results for drawing a spectrum analyzer, and significant spectral flux detection for syncing events to the music dynamics. You can pause, resume or stop the music. You can jump to the next song in your playlist. The playlist can be configured to stop or re-start after the last music file is played. Fun: Any of the real-time data can be used to trigger events in your particular application or game.
+Now 'MattMusicSDK2' - multiplatform xcFramework for macOS, iOS, and iOS Simulator -- audio player xcFramework that gives back real-time data (sound samples for drawing the waveform, FFT real and imaginary results for drawing a spectrum analyzer, and significant spectral flux detection for syncing events to the music dynamics) for M4A, MP3, etc
+
+Supports: macOS >= 13.5, iOS >= 17.2 and iOS Simulator.
+
+Simply add 'MattMusicSDK2.xcFramework' to your macOS or iOS project, send it the filenames (the SDK keeps a playlist internally) of music in your app bundle, call startPlayingPlaylist(), and real-time data is available: sound samples for drawing the waveform, FFT real and imaginary results for drawing a spectrum analyzer, and significant spectral flux detection for syncing events to the music dynamics. You can pause, resume or stop the music. You can jump to the next song in your playlist. Fun: Any of the real-time data can be used to trigger events in your particular application or game.
 
 Matt Kuhn
 
@@ -10,7 +13,7 @@ Matt Kuhn
 
 Example usage:
 
-    import MattMusicSDK
+    import MattMusicSDK2
  
     .
     .
@@ -18,11 +21,11 @@ Example usage:
 
     initialize()
     
-    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music1.mp3")
-    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music2.mp3")
-    addMusicFileInBundleToPlaylist(fileNameIncludingExtension: "music3.mp3")
+    addSongInBundleToPlaylist(filenameWithExtension: "music1.mp3")
+    addSongInBundleToPlaylist(filenameWithExtension: "music2.mp3")
+    addSongInBundleToPlaylist(filenameWithExtension: "music3.mp3")
     // ...
-    playMusic()
+    startPlayingPlaylist()
     
 
 In your main update loop:
@@ -50,7 +53,7 @@ In your main update loop:
     .
     .
     
-    let isSigSpectralFluxDetected = isSignificantSpectralFluxDetected()
+    let isBeatDetected = isBeatDetected()
     
     // sync app or game events to music dynamics
     
@@ -63,21 +66,17 @@ Full API:
 
 func initialize() -> Bool
 
-func addMusicFileInBundleToPlaylist(fileNameIncludingExtension fileUrlStr: String) -> Bool 
+func addSongInBundleToPlaylist(filenameWithExtension fileUrlStr: String) -> Bool 
 
-func playMusic() -> Bool
+func startPlayingPlaylist() -> Bool
 
-func getTheSamples() -> [Float]
-
-func getFrequenciesReal() -> [Float] 
-
-func getFrequenciesImaginary() -> [Float] 
-
-func getSamplesSize_akaN() -> Int
+func getCurrentMusicFilename() -> String
 
 func getCurrentMusicSampleRate() -> Float
 
 func pauseMusic()
+
+func resumeMusic()
 
 func stopMusic()
  
@@ -89,13 +88,14 @@ func isStopped() -> Bool
 
 func jumpToNextSong() 
 
-func setDontRestartPlaylistOnceFinished(_ value: Bool) 
+func getTheSamples() -> [Float] // N = 2048
 
-func isSignificantSpectralFluxDetected() -> Bool 
+func getFrequenciesReal() -> [Float]  // N = 512
+func getFrequenciesImaginary() -> [Float]  
 
-func getCurrentMusicFilename() -> String
+func isBeatDetected() -> Bool 
 
-func cleanup()
+func unintializeAndCleanup() // NOTE: call stopMusic() first. Also resets playlist to empty.
 
 [If you find MattMusicSDK to your liking and used in your app or game... PayPal donate here](https://www.paypal.com/donate/?hosted_button_id=H3B7779F7KQMW)
  
